@@ -1,0 +1,43 @@
+title: Ethan Bray
+description:
+author: Ethan Bray
+github: https://github.com/ethanbray
+about: I'm a PHP developer with an interest in CI/CD and all things DevOps. I'll be writing about Zend,
+AWS and various topics that interest me.
+google_analytics: UA-140864633-1
+avatar_url: /static/img/avatar.png
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-twitter
+      link: "https://twitter.com/ethaanbray"
+    - icon: fa-github
+      link: "https://github.com/ethanbray"
+
+urls:
+    - text: About Me
+      url: /about/
+
+url: "https://www.ethanbray.com"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
