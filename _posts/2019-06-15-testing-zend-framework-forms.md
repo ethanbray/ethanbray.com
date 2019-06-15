@@ -5,8 +5,6 @@ date:   2019-06-15 13:33:10 +0000
 categories: [zend, testing]
 ---
 
-# Unit Testing Zend Framework Forms
-
 The Zend Framework [documentation](https://docs.zendframework.com/tutorials/unit-testing/)
 on unit testing focuses on testing controllers rather than 
 components such as forms, filters or validators.
@@ -151,7 +149,7 @@ We can use [vfsStream](https://github.com/bovigo/vfsStream) as a stream wrapper
 for a virtual file system. This allows us to programatically create virtual files
 that can then be used during our tests.
 
-```
+```php
 use Foo\Bar\ExampleFormFilter;
 use org\bovigo\vfs\content\LargeFileContent;
 use org\bovigo\vfs\vfsStream;
