@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Intermittent RDS Errors When Triggering Lambda Functions"
-date:   2019-06-28 9:00:00 +0000
+date:   2019-07-14 13:30:00 +0000
 categories: [aws]
 ---
 
